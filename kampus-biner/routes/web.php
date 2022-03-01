@@ -59,20 +59,20 @@ Route::get('/tables', function () {
 });
 
 Route::get('/utilities-animation', function () {
-    return view('utilities-animation.');
+    return view('utilities-animation');
 });
 
 Route::get('/utilities-border', function () {
-    return view('utilities-border.');
+    return view('utilities-border');
 });
 
 
 Route::get('/utilities-color', function () {
-    return view('utilities-color.');
+    return view('utilities-color');
 });
 
 Route::get('/utilities-other', function () {
-    return view('utilities-other.');
+    return view('utilities-other');
 });
 
 
