@@ -38,8 +38,8 @@ Route::get('/charts', function () {
 
 });
 
-Route::get('/forgot-pasword', function () {
-    return view('forgot-pasword');
+Route::get('/forgot-password', function () {
+    return view('forgot-password');
 });
 
 Route::get('/', function () {
